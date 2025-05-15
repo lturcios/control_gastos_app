@@ -1,0 +1,1 @@
+ C:\\Users\\l_tur\\VSCodeProjects\\Flutter\\control_gastos_app\\.dart_tool\\flutter_build\\9b65648aa0bfe6ee6513d15aa751e933\\dart_build_result.json: 
