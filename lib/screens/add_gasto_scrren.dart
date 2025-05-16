@@ -139,8 +139,9 @@ class _AddGastoScreenState extends State<AddGastoScreen> {
                 decoration: const InputDecoration(labelText: 'Monto (\$)'),
                 keyboardType: TextInputType.numberWithOptions(decimal: true),
                 validator: (value) {
-                  if (value == null || value.isEmpty)
+                  if (value == null || value.isEmpty) {
                     return 'Campo obligatorio';
+                  }
                   final monto = double.tryParse(value);
                   return (monto == null || monto <= 0)
                       ? 'Monto inválido'
